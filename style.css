@@ -70,3 +70,20 @@ h1{
     background-size: cover;
     background-repeat: none;
 }
+
+main{
+    background-image: url(img/background.jpg);
+    background-size: cover;
+}
+
+h2{
+    padding: 40px;
+    text-transform: uppercase;
+    font-family: 'Abel', sans-serif;
+    font-size: 50px;
+    color: crimson;
+}
+
+.card-body, .card{
+    background-color: black;
+}
