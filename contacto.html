@@ -50,24 +50,41 @@
     </nav>
     <!-- navbar termina -->
 
-    <!-- titulo e imagen -->
-    <div class="p-5 bg-primary text-center titulo">
-        <h1>euforia</h1>
-        <button type="button" class="btn"><a href="pages/eventos.html">eventos nuevos</a></button>
-      </div>
-    <!-- titulo e imagen-->
-
     <!-- main -->
-    <div class="container-fluid text-center">
+    <main>
         <div class="row">
-            <div class="nleft col-sm-6"></div>
-            <div class="nright col-sm-6">
-                <h2>¿Que Es Euforia?</h2>
-                <p>EUFORIA ES UNA PLATAFORMA EN LÍNEA VIBRANTE Y DINÁMICA DEDICADA A MOSTRAR LOS MEJORES EVENTOS Y CONCIERTOS DE MÚSICA EN VIVO. CON UNA AMPLIA GAMA DE GÉNEROS Y ARTISTAS, EUFORIA REÚNE A AFICIONADOS A LA MÚSICA DE TODOS LOS ÁMBITOS. YA SEAS FANÁTICO DEL ROCK, POP, JAZZ O MÚSICA ELECTRÓNICA, EUFORIA TIENE ALGO PARA TODOS.</p>
-                <button type="button" class="btn"><a href="pages/lugar.html">saber mas</a></button>
+            <h2>¿Quieres encontrarnos? Estamos Aqui</h2>
+            <div class="col-lg-6 col=md-12 mapa d-flex justify-content-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5238.563149826143!2d-62.24248799329915!3d-38.67489502593721!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eda4c3b160dbb1%3A0xd4bdfe7d015aad2d!2sComplejo%20Club%20Universitario%20Bahia%20Blanca%2C%20Bah%C3%ADa%20Blanca%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1707193216494!5m2!1ses-419!2sar" width="540" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+            <div class="col-lg-6 col-md-12 d-flex justify-content-center">
+                <ul class="direccion">
+                    <li>Direccion: Alem 2300</li>
+                    <li>Cel: +54 9 11 1234-5678</li>
+                </ul>
             </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="col mt-4">
+              <h2 class="tituloForm">¿Quieres Contactarnos?</h2>
+                <div class="contactoForm d-flex justify-content-center">
+                        <form class="">
+                          <h2>Completa este formulario</h2>
+                          <div class="input-box">
+                            <input type="text" placeholder="Nombre" required>
+                          </div>
+                          <div class="input-box">
+                            <input type="number" placeholder="Celular" required>
+                          </div>
+                          <div class="input-box">
+                            <input type="email" placeholder="Email" required>
+                          </div>
+                          <textarea name="mensaje" id="" cols="30" rows="4" placeholder="Mensaje"></textarea>
+                          <button type="submit" class="btn">enviar</button>
+                        </form>
+            </div>
+        </div>
+    </main>
     <!-- main -->
 
   <!-- footer -->
